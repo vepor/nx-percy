@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Button } from "@nx-percy/nucleus"
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
@@ -141,6 +142,7 @@ export function App() {
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
+        <Button>Hello world!</Button>
         <p>Thank you for using and showing some ♥ for Nx.</p>
         <div className="flex github-star-container">
           <a
