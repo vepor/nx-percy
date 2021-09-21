@@ -183,6 +183,13 @@
               "quiet": true
             }
           }
+        },
+        "visual-test": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["nx run nucleus:build-storybook", "percy storybook ./dist/storybook/nucleus"],
+            "parallel": false
+          }
         }
       }
     }
