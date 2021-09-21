@@ -22,3 +22,5 @@ jobs:
         run: yarn install
       - name: Build storybook & run visual tests
         run: yarn nx run nucleus:visual-test
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
