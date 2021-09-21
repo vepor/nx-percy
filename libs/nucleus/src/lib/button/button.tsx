@@ -15,7 +15,7 @@ const StyledButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: deeppink;
+  background-color: blue;
 `;
 
 
