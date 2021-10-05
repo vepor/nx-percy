@@ -9,6 +9,13 @@ export default {
 const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
+
+export const DifferentOne = Template.bind({});
+
 Primary.args = {
   children: "Hello world!"
+};
+
+DifferentOne.args = {
+  children: "Čau"
 };
