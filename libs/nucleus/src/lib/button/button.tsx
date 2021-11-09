@@ -8,7 +8,7 @@ export interface ButtonProps {
 }
 
 const StyledButton = styled.div`
-  color: black;
+  color: white;
   height: 40px;
   font-size: 16px;
   display: flex;
