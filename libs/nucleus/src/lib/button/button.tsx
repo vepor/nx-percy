@@ -8,13 +8,13 @@ export interface ButtonProps {
 }
 
 const StyledButton = styled.div`
-  color: white;
+  color: black;
   height: 40px;
   font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: blue;
 `;
 
 
