@@ -11,7 +11,6 @@ const StyledButton = styled.div`
   color: white;
   height: 40px;
   font-size: 16px;
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
